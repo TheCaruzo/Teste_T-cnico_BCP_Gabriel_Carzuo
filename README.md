@@ -1,4 +1,4 @@
-# TesteTecnicobcp
+![image](https://github.com/user-attachments/assets/6c92aec6-679b-4dec-9fdb-213c1dcfbe66)# TesteTecnicobcp
 Teste técnico BCP - Gabriel Caruzo Espindola
 
 # Automação de Download e Análise de Dados
@@ -122,7 +122,10 @@ Foi tratado os dados e deixando somente as counas Código, Nome, Preço e Taxas 
 
 ![Media Taxa Indicativa DI+](Assests/Media_Indicativa_IPCA.png)
 
+
 **Média Taxa DI%** 
+
+
 
 ![Média Taxa DI%](Assests/Media_Indicativa_DI%.png)
 
