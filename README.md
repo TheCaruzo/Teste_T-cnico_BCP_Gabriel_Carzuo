@@ -86,7 +86,8 @@ Os arquivos são salvos no diretório especificado por `download_dir`. Utiliza S
 
 
 ### Interface Gráfica
-**Descrição:** A interface gráfica é criada usando a biblioteca tkinter. Inclui a exibição de uma imagem de logo, a data atual, o status da automação e botões para iniciar a automação e adicionar o indexador.
+**Descrição:** A interface gráfica é criada usando a biblioteca tkinter. Inclui a exibição de uma imagem de logo, a data atual, o status da automação e botões para iniciar a automação.
+Considerei interessante propor a criação de uma interface para fornecer respostas mais claras sobre o status e a execução do processo de automação. Essa funcionalidade pode melhorar o monitoramento e a interação com o sistema.
 
 - `root`: Janela principal da interface gráfica.
 - `logo_path`: Caminho da imagem da logo.
@@ -102,7 +103,7 @@ Os arquivos são salvos no diretório especificado por `download_dir`. Utiliza S
 
 
 ### Power BI
-Foi tratado os dados e deixando somente as counas Código, Nome, Preço e Taxas Negociadas. Com isso foi gerado os grafícos solicitados 
+Foi tratado os dados e deixando somente as counas Código, Nome, Preço e Taxas Negociadas. Com isso foi gerado os grafícos solicitados.
 
 **Média Taxa Indicativa por data**
 
