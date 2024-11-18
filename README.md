@@ -104,25 +104,28 @@ Os arquivos são salvos no diretório especificado por `download_dir`. Utiliza S
 ### Power BI
 Foi tratado os dados e deixando somente as counas Código, Nome, Preço e Taxas Negociadas. Com isso foi gerado os grafícos solicitados 
 
-**Media Taxa Indicativa por data**
+**Média Taxa Indicativa por data**
 
 
 ![Media_Taxa_Data](Assests/Media_Taxa_Data.png)
 
 
 
-**Media Taxa Indicativa DI+**
+**Média Taxa Indicativa DI+**
 
 
 ![Media Taxa Indicativa DI+](Assests/Media_di+png.png)
 
 
 
-**Media Taxa Indicativa  IPCA +**
+**Média Taxa Indicativa  IPCA +**
 
 ![Media Taxa Indicativa DI+](Assests/Media_Indicativa_IPCA.png)
 
-**
+**Média Taxa DI%** 
+
+![Média Taxa DI%](Assests/Media_Indicativa_DI%.png)
+
 
 
 
