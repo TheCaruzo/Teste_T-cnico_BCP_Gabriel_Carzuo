@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6c92aec6-679b-4dec-9fdb-213c1dcfbe66)# TesteTecnicobcp
+### TesteTecnicobcp
 Teste técnico BCP - Gabriel Caruzo Espindola
 
 # Automação de Download e Análise de Dados
