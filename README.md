@@ -98,7 +98,7 @@ Os arquivos são salvos no diretório especificado por `download_dir`. Utiliza S
 - `btn_automacao`: Botão para iniciar a automação.
 
 
-![image](https://github.com/user-attachments/assets/a8927412-6db3-475e-95a1-acfded6a6396)
+![inteface](Assests/Interace.png)
 
 
 ### Power BI
@@ -107,19 +107,22 @@ Foi tratado os dados e deixando somente as counas Código, Nome, Preço e Taxas 
 **Media Taxa Indicativa por data**
 
 
-![image](https://github.com/user-attachments/assets/62d2a7b5-94da-49cc-bdde-2cbb41e1b4bd)
+![Media_Taxa_Data](Assests/Media_Taxa_Data.png)
 
 
 
 **Media Taxa Indicativa DI+**
 
 
-
-![image](https://github.com/user-attachments/assets/6455e569-276d-4ca2-9a52-cb9981f109eb)
+![Media Taxa Indicativa DI+](Assests/Media_di+png.png)
 
 
 
 **Media Taxa Indicativa  IPCA +**
+
+![Media Taxa Indicativa DI+](Assests/Media_Indicativa_IPCA.png)
+
+**
 
 
 
