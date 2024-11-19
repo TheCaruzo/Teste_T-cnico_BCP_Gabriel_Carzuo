@@ -35,7 +35,7 @@ Este script utiliza Selenium para automatizar o navegador Google Chrome, baixar 
 ### Funções Automação
 
 ### automacao()
-**Descrição:** Esta função automatiza o processo de acesso ao site da ANBIMA, obtém os últimos 5 dias úteis e faz o download dos arquivos XLS correspondentes a cada data. 
+**Descrição:** Esta função automatiza o processo de acesso ao site da ANBIMA, obtém os últimos 5 dias úteis e faz o download dos arquivos XLS correspondentes a cada data. (Incialmente segui por input de data, resolvi fazer por forma automática, essa maneira não leva em cosideração os feriados e nesse caso precisamos declarar os feriados)
 
 **Variáveis:**
 - `datas`: Lista que contém os últimos 5 dias úteis.
