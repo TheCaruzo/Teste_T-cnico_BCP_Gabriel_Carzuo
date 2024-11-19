@@ -6,9 +6,9 @@ Processo de automação foi feito via Selenium, onde o código acessa o site da 
 O processo de tartamento de dados foi feito via Pandas, onde o código lê os arquivos baixados, 
 e os trata para que sejam salvos em um arquivo Excel final.
     
-Foram utilizadas as bibliotecas: time, os, re, datetime, pandas, matplotlib.pyplot e selenium
+Foram utilizadas as bibliotecas: time, os, re, datetime, pandas, matplotlib.pyplot, selenium e tkinter.
 
-As funções foram separadas em 3 partes: automacao, alterar_nome, data_set, adicionar_indexador_debentures e plotar_graficos
+As funções foram separadas em 3 partes: automacao, alterar_nome, data_set, adicionar_indexador_debentures 
 
 Automacao: entra automaticamente no site e pelo calendario pega os ultimo 5 dia  utéis e através de um loop faz o download dos 5 arquivos em xls referente a cada data, chama a variavel download_dir para realizar o salvamento
 na pasta Daily Prices, chama a função alterar_nome para a alteração do nome do arquivo baixado.
@@ -20,8 +20,7 @@ removendo linhas e colunas indesejadas, e por fim salva em um arquivo do dataset
 
 Adicionar_indexador_debentures: lê o arquivo do dataset unico, adiciona a coluna Indexador de debentures, que é retirada da coluna Índice/ Correção, e salva no arquivo final
 
-plotar_graficos: lê o arquivo do dataset unico, verifica se as colunas necessárias estão presentes, converte a coluna data para datetime, a coluna Taxa Indicativa para numérico,
-agrupa por Indexador de debêntures e data, alem de calcular a média da Taxa Indicativa, e por fim plota um gráfico para cada indexador
+Interface visual: foi criada uma interface visual utilizando a biblioteca tkinter, onde o usuário pode iniciar a automação, adicionar o indexador de debentures e visualizar o status da automação
 
 """
 
