@@ -104,6 +104,7 @@ Considerei interessante propor a criação de uma interface para fornecer respos
 
 ### Power BI
 Foi tratado os dados e deixando somente as counas Código, Nome, Preço e Taxas Negociadas. Com isso foi gerado os grafícos solicitados.
+Não achei necessário realizar a tirada das colunas via código, fiz diretamente pelo PBI e também pelo natureza do PBI julguei a necessidade de fazer um ETL total,  entendi que talvez nesse era necessário(Ponto a discutir com avaliador)
 
 **Média Taxa Indicativa por data**
 
