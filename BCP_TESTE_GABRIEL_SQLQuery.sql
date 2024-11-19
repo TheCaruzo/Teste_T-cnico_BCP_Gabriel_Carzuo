@@ -1,10 +1,18 @@
 
--- Lista de Debêntures
+-- Lista de DebÃªntures
 SELECT COUNT(BCP_Codigo) AS Quantidade_BCP_Debentures_Dia_Anterior
 FROM BCP_Dados
 WHERE BCP_Data = CAST(DATEADD(DAY, -1, GETDATE()) AS DATE);
 
--- Durantion Média
+-- Lista de DebÃªntures
+SELECT 
+    COUNT(BCP_Codigo) AS Quantidade_BCP_Debentures_Dia_Anterior
+FROM 
+    BCP_Dados
+WHERE 
+    BCP_Data = '2024-11-17';
+
+-- Durantion MÃ©dia
 SELECT AVG(BCP_Duration) AS Media_BCP_Duration
 FROM BCP_Dados
 WHERE BCP_Data IN (
@@ -16,7 +24,7 @@ WHERE BCP_Data IN (
 )
 
 
--- Códigos únicos VALE S/A
+-- CÃ³digos Ãºnicos VALE S/A
 SELECT DISTINCT BCP_Codigo
 FROM BCP_Dados
 WHERE BCP_Nome = 'VALE S/A';
